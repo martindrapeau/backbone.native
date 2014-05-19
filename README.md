@@ -87,11 +87,11 @@ object is also not returned from the AJAX request, so developers must rely on th
 
 ### $.ready
 
-`$.ready` has not been implemented, instead deferring to the `DOMContentLoaded` event.
+`$.ready` was naively implemented deferring to the `DOMContentLoaded` event. However only one call is possible per page. Calling `$.ready` multiple times will only call the last one.
 
-    document.addEventListener('DOMContentLoaded', function(){
-        // Code to run when the DOM has loaded.
-    }, false);
+### Other functions
+
+Four more useful functions were added: `$.show`, `$.hide`, `$.show` and `$.hide`. Widely used, they are provided for conveniance.
 
 ## Compatibility
 
