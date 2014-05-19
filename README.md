@@ -91,7 +91,7 @@ object is also not returned from the AJAX request, so developers must rely on th
 
 ### Other functions
 
-Four more useful functions were added: `$.show`, `$.hide`, `$.show` and `$.hide`. Widely used, they are provided for conveniance.
+Four more useful functions were added: `$.show`, `$.hide`, `$.show` and `$.hide`. Widely used, they are provided for convenience.
 
 ## Compatibility
 
